@@ -1,6 +1,7 @@
 :root {
     --colorpurple: #c271ff;
     --font-family-base: 'Source-sans-Pro-Regular';
+    --font-family-title: 'Source-sans-Pro-Semibold';
 }
 
 body {
@@ -179,4 +180,256 @@ div h1 {
     font-weight: 400;
     margin-bottom: .25rem;
     margin-top: 0;
+}
+
+.carousel_piece {
+    background-color: var(--colorpurple);
+    /**min-height: 390px;**/
+    color: #fff;
+    margin: auto;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.carousel_piece .rounded-circle {
+    border-style: none;
+    vertical-align: middle;
+    width: 150px;
+    aspect-ratio: auto 150/150;
+    height: 150px;
+    overflow: clip;
+    overflow-clip-margin: comtent-box;
+}
+
+.carousel_piece .quote {
+    margin: 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    /**line-height: 1.5;**/
+}
+
+.quote p {
+    font-size: 22px;
+    /**line-height: 34px;**/
+    /**max-width: 730px;**/
+    font-family: var(--font-family-base);
+    padding-left: 2rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+    margin: 1rem;
+}
+
+.quote h3 {
+    font-size: 22px;
+    /**line-height: 34px;**/
+    /**max-width: 730px;**/
+    font-family: var(--font-family-base);
+    font-weight: 700;
+    margin-top: 1.5rem;
+    display: block;
+    color: #fff;
+    text-align: left;
+    justify-content: left;
+    padding-left: 2rem;
+    margin: 1rem;
+}
+
+.tutorials {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.tutorials h2 {
+    color: #344a40;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+
+.tutorials h2 span {
+    color: var(--colorpurple);
+    font-weight: 700;
+    box-sizing: border-box;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/**.carousel_slide {
+    margin-bottom: 3rem;
+    margin: 3rem;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}**/
+
+.tutorials-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    float: left;
+    /**margin-right: -100%;**/
+}
+
+.card_1 {
+    width: 16rem;
+    border: none;
+    margin-right: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card_1-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.img9 {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    flex-shrink: 0;
+    width: 100%;
+    border-style: none;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.iconPlay {
+    width: 60px;
+    height: 60px;
+    font-family: 'icon';
+    font-style: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    border-style: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    display: block;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: .75rem;
+    line-height: 1.2;
+    margin-top: 0;
+    display: block;
+}
+
+.card-body p {
+    color: #6c757d;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.massey {
+    align-items: center;
+    display: flex;
+}
+
+.massey img {
+    margin-right: 1rem;
+    display: block;
+    width: 30px;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.massey h4 {
+    font-family: var(--font-family-title);
+    font-size: 12px;
+    line-height: 27px;
+    color: var(--colorpurple);
+    display: block;
+}
+
+.rating {
+    display: flex;
+    background-color: transparent;
+}
+
+.star {
+    width: 120px;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.star-rating {
+    /**width: 15px;
+    height: 15px;**/
+    margin: 0 auto;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.rating p {
+    color: var(--colorpurple);
+    padding-left: .5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    display: block;
 }
