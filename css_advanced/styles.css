@@ -1,0 +1,182 @@
+:root {
+    --colorpurple: #c271ff;
+    --font-family-base: 'Source-sans-Pro-Regular';
+}
+
+body {
+    font-family: var(--font-family-base);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.intro {
+    background-image: url(images/Object.png);
+}
+
+/**header {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 20px;
+}**/
+
+div h1 {
+    font-size: 120px;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin: .67rem 0;
+    line-height: 1.2;
+    display: block;
+}
+
+.smilesGrinLaugh {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: var(--font-family-base);
+}
+
+.smilesGrinLaugh span {
+    margin: 0 15px;
+}
+
+.register {
+    /**padding: .375rem .75rem;
+    font-size: 14px;
+    background-color: var(--colorpurple);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 162px;
+    height: 44px;
+    display: inline-block;
+    text-align: center !important;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-weight: 300;
+    align-items: center;**/
+    display: block;
+    text-align: center;
+}
+
+.register button {
+    background-color: var(--colorpurple);
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 300;
+    width: 172px;
+    height: 44px;
+    padding: .375 rem .75rem;
+}
+
+.learn {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.learn h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #fff;
+    margin-top: 3rem !important;
+    margin-bottom: .5rem;
+    font-family: var(--font-family-base);
+}
+
+.learn h2 span {
+    color: var(--colorpurple) !important;
+    font-weight: 700;
+}
+
+.profiles {
+    color: #fff;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    unicode-bidi: isolate;
+    text-align: center !important;
+    font-family: var(--font-family-base);
+}
+
+/**.profiles .Phillip {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    unicode-bidi: isolate;
+}
+
+.profiles .Nannie {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    unicode-bidi: isolate;
+}**/
+
+.BruceWalters img {
+    border-radius: 50%;
+}
+
+.profiles h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.profiles p {
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: .25rem;
+    margin-top: 0;
+}
